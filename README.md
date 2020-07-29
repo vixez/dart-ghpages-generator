@@ -71,3 +71,14 @@ pasted to the _gh-pages_ branch
 
 ## License ##
 Apache 2.0
+
+
+Editing:
+
+/Users/USERNAME/.pub-cache/hosted/pub.dartlang.org/ghpages_generator_2-0.3.2
+
+make changes
+
+pub global activate ghpages_generator_2 --no-executables
+
+pub global run ghpages_generator_2:generate ...       
