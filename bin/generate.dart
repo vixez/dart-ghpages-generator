@@ -13,7 +13,8 @@
 // limitations under the License.
 
 import 'package:args/args.dart';
-import 'package:ghpages_generator/ghpages_generator.dart';
+
+import '../lib/ghpages_generator.dart';
 
 final argParser = new ArgParser(allowTrailingOptions: false)
   ..addOption('root-dir', help: 'The path of the package directory.')

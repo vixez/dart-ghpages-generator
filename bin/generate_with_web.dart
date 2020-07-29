@@ -12,6 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:ghpages_generator/ghpages_generator.dart';
+import '../lib/ghpages_generator.dart';
 
 main(List<String> args) => updateWithWebOnly();

@@ -1,4 +1,8 @@
 
+# v0.3.2 (2020-07-29)
+
+Attempt to remove Dart SDK 2 limit
+
 # v0.3.1 (2018-01-17)
 
 Widen `args` dependency to include 1.x.x.

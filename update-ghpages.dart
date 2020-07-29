@@ -1,4 +1,4 @@
-import 'package:ghpages_generator/ghpages_generator.dart' as gh;
+import 'lib/ghpages_generator.dart' as gh;
 
 main() {
   new gh.Generator()

@@ -15,13 +15,13 @@ library. The easiest way to invoke it is to
 [globally activate](https://www.dartlang.org/tools/pub/cmd/pub-global.html) the
 package and let pub put its executable on your path:
 
-    $ pub global activate ghpages_generator
+    $ pub global activate ghpages_generator_2
     $ generate_ghpages ...
 
 If you don't want `generate_ghpages` on your path, you can run it explicitly:
 
     $ pub global activate ghpages_generator --no-executables
-    $ pub global run ghpages_generator:generate ...
+    $ pub global run ghpages_generator_2:generate ...
 
 #### update with web
 
@@ -30,8 +30,8 @@ If you don't want `generate_ghpages` on your path, you can run it explicitly:
 
 #### custom
 
-You can use `generate_ghpages` with several options/flags to update the
-gh-pages (See `generate_ghpages -h`).
+You can use `generate_ghpages_2` with several options/flags to update the
+gh-pages (See `generate_ghpages_2 -h`).
 
 If you need more fine controls on the generation you have to use the api as
 described bellow.
