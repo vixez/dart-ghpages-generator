@@ -20,7 +20,7 @@ package and let pub put its executable on your path:
 
 If you don't want `generate_ghpages` on your path, you can run it explicitly:
 
-    $ pub global activate ghpages_generator --no-executables
+    $ pub global activate ghpages_generator_2 --no-executables
     $ pub global run ghpages_generator_2:generate ...
 
 #### update with web
